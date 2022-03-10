@@ -1,0 +1,25 @@
+{
+  "name": "wikistack",
+  "version": "1.0.0",
+  "description": "This lovely Wikipedia-like application",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./path/to/your/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T-Ender/wikiwtack.git"
+  },
+  "author": "Eduardo Turcios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/T-Ender/wikiwtack/issues"
+  },
+  "homepage": "https://github.com/T-Ender/wikiwtack#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "html-template-tag": "^3.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
